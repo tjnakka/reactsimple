@@ -27,7 +27,6 @@ class App extends Component {
   remove_item(){
     this.state.list.pop()
     this.setState({ list: this.state.list })
-    console.log(this.state)
   }
 
   render() {
